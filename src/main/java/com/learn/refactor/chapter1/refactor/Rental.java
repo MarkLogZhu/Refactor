@@ -29,7 +29,7 @@ public class Rental {
         return daysRented;
     }
 
-    private double amountFor() {
+    public double getCharge() {
         double result = 0;
         switch (getMovie().getPriceCode()) {
             case Movie.REGULAR:
